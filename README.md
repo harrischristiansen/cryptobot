@@ -14,7 +14,18 @@ Project available on [GitHub](https://github.com/harrischristiansen/cryptobot).
 ## Features
 
 ### Cryptobot
-- [ ] Perform buys and sales
+- [ ] Price Change Events
+	- [ ] Price Rise by % Event
+	- [ ] Price Drop by % Event
+	- [ ] Price Max-Peak Event
+	- [ ] Price Min-Peak Event
+	- [ ] Price All-Time-High Event
+- [ ] Transaction Volume Events
+	- [ ] Increasing Buy Volume Event
+	- [ ] Increasing Buy Volume Event
+	- [ ] Decreasing Sell Volume Event
+	- [ ] Decreasing Sell Volume Event
+- [ ] Design: Events -> Subscriber. Bots will consists of subscriptions to various events, which prompt actions.
 
 ### Web UI
 - [ ] Authentication
